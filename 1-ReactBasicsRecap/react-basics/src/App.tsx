@@ -1,8 +1,20 @@
-function App() {
+import CompositionVsInheritance from "./components/CompositionVsInheritance"
+import ConditionalRendering from "./components/ConditionalRendering"
+import Events from "./components/Events"
+import ListsAndKeys from "./components/ListsAndKeys"
+import MainConcepts from "./components/MainConcepts"
+import StateAndLifecycle from "./components/StateAndLifecycle"
+
+const App: React.FC = () => {
   return (
-    <div className="bg-sky-300 p-4 flex justify-center items-center">
-      <div>Hello TypeScript</div>
-    </div>
+    <>
+      {/* <MainConcepts /> */}
+      {/* <StateAndLifecycle /> */}
+      {/* <Events /> */}
+      {/* <ConditionalRendering /> */}
+      {/* <ListsAndKeys /> */}
+      <CompositionVsInheritance />
+    </>
   )
 }
 
